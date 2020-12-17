@@ -60,7 +60,7 @@ for k in location_counter.keys():
 
 # --- 4 ---
 URL = 'https://chroniclingamerica.loc.gov/search/titles/results/?state=Alabama&format=json'
-PARAMS = {}  # Should I be using this in order to somehow print the state name?
+PARAMS = {} 
 
 r = requests.get(url=URL, params=PARAMS)
 
